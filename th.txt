@@ -1,0 +1,24 @@
+The following definitions and relations have been defined because of their use in various image processing and related fields like Computer Vision.
+Path: 2 pixels p and q are connected in set S, if there exists a path between them entirely made up of pixels in S. We can define 4-,8-,m- paths.
+Connected Component: (like equivalence classes by set S): for any pixel p, the set of pixels connected to it in S is called a connected component.
+If only one connected component of S is present in an image, then S is called connected set.
+Region: A region of an image is a subset of pixels that is a connected set.
+Two regions i and j are adjacent if their union forms a connected set. Regions that are not adjacent are called disjoint. Usually 4-,8- adjacency is used.
+For any definition, type of adjacency must also be specified.
+Complement: If we take set of all pixels in an image as universal set, then complement of a region R is the set of pixels that are in universal set but not in R.
+The points in R are called foreground and the ones present in complement the background
+Boundary or contour: The set of pixels in R that have atleast one background neighbour. Usually 8-adjacency is used. This border is also called inner border
+and the corresponding border in the background is called outer border.
+
+
+
+
+Path: Two pixels p and q are connected in set S, if there exists a path between them entirely made up of pixels in S. We can define 4-,8-,m- paths.
+Connected Component: For any pixel p, the set of pixels connected to it in S is called a connected component.
+Connected set: If only one connected component of S is present in an image, then S is called connected set.
+Region:  A region of an image is a subset of pixels that is a connected set. Two regions i and j are adjacent if their union forms a connected set. Regions that are not adjacent are called disjoint. Usually 4-,8- adjacency is used.
+
+
+
+
+
